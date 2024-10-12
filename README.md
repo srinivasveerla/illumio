@@ -35,7 +35,9 @@ The solution is written in Python and does not rely on any non-default libraries
    ```
 
 2. Run the program:
-   replace python3 with python for windows machines.
+   
+   **replace python3 with python for windows machines.**
+   
    ```bash
    python3 main.py <path to flow-log> <path to lookup-table>
    ```
