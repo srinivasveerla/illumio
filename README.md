@@ -36,7 +36,7 @@ The solution is written in Python and does not rely on any non-default libraries
 
 2. Run the program:
    ```bash
-   python main.py <path to flow-log> <path to lookup-table>
+   python3 main.py <path to flow-log> <path to lookup-table>
    ```
 
    Example:
