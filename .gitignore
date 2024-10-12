@@ -1,6 +1,4 @@
 /.DS_Store
 /.idea
-/__pycache__
-/out
-/tests
+*/__pycache__
 /venv
