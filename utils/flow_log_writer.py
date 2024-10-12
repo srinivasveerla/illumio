@@ -12,7 +12,7 @@ def write_port_protocol_pairs_to_file(output_dir, port_protocol_dict):
             None
         """
         logger.info("Writing port-protocol pairs to file")
-        with open(os.path.join(output_dir, 'port_file.csv'), 'w') as f:
+        with open(os.path.join(output_dir, 'port_protocol_pairs.csv'), 'w') as f:
             f.write("Port,Protocol,Count\n")
             for (dstport, protocol), count in port_protocol_dict.items():
                 f.write(f"{dstport},{protocol},{count}\n")
@@ -29,7 +29,7 @@ def write_tags_to_file(output_dir, tags_dict):
         None
     """
     logger.info("Writing tags to file")
-    with open(os.path.join(output_dir, 'tag_file.csv'), 'w') as f:
+    with open(os.path.join(output_dir, 'tags_count.csv'), 'w') as f:
         f.write("Tag,Count\n")
         for tag, count in tags_dict.items():
             f.write(f"{tag},{count}\n")

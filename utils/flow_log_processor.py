@@ -10,7 +10,7 @@ def read_flow_logs(filename, look_up_table, protocols):
     Reads a flow log file and counts the number of times each port-protocol
     pair and tag appear.
     writes the port-protocol pairs to a out/port_protocol_pairs.csv file and 
-    the tags to a tags_count.csv file
+    the tags to a out/tags_count.csv file
 
     Args:
         filename (str): The name of the flow log file to read.
