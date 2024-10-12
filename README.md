@@ -41,7 +41,7 @@ The solution is written in Python and does not rely on any non-default libraries
 
    Example:
    ```bash
-   python main.py logs/flow_log lookup_table.csv
+   python3 main.py logs/flow_log lookup_table.csv
    ```
 
    This will process the provided flow log and lookup table, generating the following output files in the `out/` folder:
